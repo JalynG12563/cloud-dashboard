@@ -1,12 +1,16 @@
-import React from 'react';
-import Dashboard from './pages/dashboard';
+import React from "react";
+import CostTable from "./components/CostTable";
 
 function App() {
   return (
-    <div>
-      <Dashboard />
+    <div className="App">
+      <h1>AWS Cost Dashboard</h1>
+      <CostTable />
     </div>
   );
 }
 
 export default App;
+
+
+
